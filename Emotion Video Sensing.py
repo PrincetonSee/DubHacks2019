@@ -18,7 +18,7 @@ def retrieve_audio_file(num):
     bucket = storage.bucket('carecam-593ba.appspot.com')
     blob = bucket.blob(filename)
 
-    with open(filename, 'w+') as file_obj:
+    with open(filename, 'w') as file_obj:
         blob.download_to_filename(filename)
         file_obj.close()
 

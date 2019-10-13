@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1485fcb4-b5ce-4816-99e9-12d7883b1924" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CareCamRecorderAppMobile/CareCamRecorderApp/app/google-services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/CareCamAudio1-old1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/CareCamAudio1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/CareCamAudio2-old1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/CareCamAudio2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/CareCamAudio3-old1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/CareCamAudio3.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/twinkle.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CareCamAudio1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CareCamAudio2.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Emotion Video Sensing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Emotion Video Sensing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audio/cloudAudio.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/audio/whiteNoise.wav" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/video/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/video/image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/webapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/webapp/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/webapp/templates/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/webapp/templates/page.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570983840162</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Emotion recognition and audio download success">
+      <created>1570993067381</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570993067381</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
