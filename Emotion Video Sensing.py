@@ -2,30 +2,39 @@
 import io
 import os
 import cv2
+import firebase_admin
 
 # Imports the Google Cloud client library
 from google.cloud import vision
+# from google.cloud import storage
 from google.cloud.vision import types
+from playsound import playsound
+from firebase_admin import credentials
+from firebase_admin import storage
 
-# # Instantiates a client
-# client = vision.ImageAnnotatorClient()
-#
-# # The name of the image file to annotate
-# file_name = os.path.abspath('images\\testImage.jpg')
-#
-# # Loads the image into memory
-# with io.open(file_name, 'rb') as image_file:
-#     content = image_file.read()
-#
-# image = types.Image(content=content)
-#
-# # Performs label detection on the image file
-# response = client.label_detection(image=image)
-# labels = response.label_annotations
-#
-# print('Labels:')
-# for label in labels:
-#     print(label.description)
+
+def retrieve_audio_file():
+    cred = credentials.Certificate('keys/carecam-593ba-firebase-adminsdk-gr35d-a83ad42f4e.json')
+    firebase_admin.initialize_app(cred)
+    # storage_client = storage.Client()
+    # bucket_name = 'CareCamAudioFiles'
+    # bucket = storage_client.get_bucket(bucket_name)
+    # blob = bucket.blob('whiteNoise.wav')
+    filename = 'audio/testAudio2.mp3'
+    # blob.download_to_filename('audio/whitNoise2.wav')
+    bucket = storage.bucket('carecam-593ba.appspot.com')
+    blob = bucket.blob('testAudio.mp3')
+
+    with open(filename, 'w+') as file_obj:
+        blob.download_to_filename(filename)
+        file_obj.close()
+
+    print('retrieved.')
+
+    # 'bucket' is an object defined in the google-cloud-storage Python library.
+    # See https://googlecloudplatform.github.io/google-cloud-python/latest/storage/buckets.html
+    # for more details.
+    return filename
 
 
 def detect_faces(path):
@@ -54,6 +63,10 @@ def detect_faces(path):
                     for vertex in face.bounding_poly.vertices])
 
         print('face bounds: {}'.format(','.join(vertices)))
+        if face.joy_likelihood == 4 or face.joy_likelihood == 5:
+            print(face.joy_likelihood)
+            print("You're Surprised!")
+            playsound(retrieve_audio_file())
 
 
 def web_cam_feed():
@@ -79,4 +92,7 @@ def web_cam_feed():
 
 
 if __name__ == '__main__':
+    # upload_audio()
+    # db = init_credentials()
+    # retrieve_audio_file()
     web_cam_feed()

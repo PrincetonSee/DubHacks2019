@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "carecam-593ba",
+  "private_key_id": "dab17f550ccaf047b96b5e26cefca21f5b0f955d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/PnsLjO9w8/wU\nAX5p38W5vkseF3Ze3/E/jZ30/PqpUxuGONhYS5XOhYKTbA5VvqTY61ttRQYizxS/\nJdjzvRUEoABFooRRp+MEjQjrCZSUdvhSMNKwMTMYIA0KiY4ci+uXqyW9JpZkdRaH\nsIfIW8/Jc1I0d2hYB1frxRKsHvyG/j1zmqJq1g3SU1INq63C40kPFFnpRkk0HRJp\nqFNNA8lMGCqwQi6yEYOsThup/7pqHXQOUHTwfDZfOT2D9v2nbHsfeQt3rMMZO7uI\n+w0lMQfjWXxUCBO1x6Qtu4CHY9dhfBnNvVGoXY9wBkfo3p3j8JtR4SDT6eaa5DgP\njXtbg01zAgMBAAECggEANXbQrFJ6r++tpaQjRJL38mzmECQMBgsCJTvAkHhW1RZ0\nR+pFZS3AVCuT7QXU3hi9eh0WAq68v+d3i9aXV9Cg+xmF6fG8nx1ZxHBvMVIM1RKL\namLWy8X9XD29l5gMACQHuW9xzfbnLW9kXIu38gXkyZMxRJSrOYzYAgQmq7K/8zbN\ndjMGqy8MIjEVXLdPtlAV3M3t5fsGGm+F071CPvYVpDCHl2Xvuc1pa7afYfuFH9g3\nt9vIu/clsV2ok9KI42JAOoPaW5owmrMgDkh9wrWKJ3SGTwnN6ZhU9HpU8aT7ygjx\nTA+XJ76+QhF4GOzSfv7EYL/c/t+NrNwbb9EYj52njQKBgQDofDBJiqIakLoUufjB\nkOeK1uzgvE39fvBBHAQeD3BDGLS5z3zaqp3zW3POHWUGauhxB4c/HVq6xVbXH77g\nwEohOulBQq6FInLDVpVDfr+KSc2++vK9HwxpoWVgBDZilfOZtyBb11+FilEEcMAE\n5MbvrjJG3SZaESv/gKOsZrQw3QKBgQDSlmylw66FWdoigl17GU2ye95bzKaGzj2B\nFu/ya5OdFYiRv+uz0Lf2uDxeYLl7vrDH3X8q+LKro5ABBvFzQxKC9jN12QR4kR3m\nE1tQiEsKL4v7AF6QCCMSoYdo3sFfJrHOTNtGdjwAF1QqTlJKY52RhGw9h54hKMmQ\nV6+ZnNrqjwKBgC9yQOyRVXn0dXWLasAeUZLdQCSxaX1FrcSr8g8seW3IGgId3U5H\nKcsjq+Oxzg9cPCntLmXsGLsrUQjAWtVFiRt1CWufLzzOhftlrTrEIFUZsNq8HlQI\nhSD9plHNKkg+cCO74ue7cawwSU6NsDKPeiYqN+qMcapJ/N+9IioqH7YlAoGAS+DD\nmR7e/VGY1aJfiIFfi5YyUqV0w1IAu0jGgHTepVUi9lFO3mWwQ4eyyNbVPo9BJ2LZ\n9WPTDSFMO/KCgWODggiwFiByCfdP7JzA5E2XrD3hlDlX2VH1QTtOjSzmRCCvJIRw\n5fyoNegx/WRnJkKqfcpXLfx1r8EAj6/op9Lq1mUCgYEAp8W1xPg40wbA+SJPkkcQ\n3eH5pZakm9hpvg9mmHb/4VuXhG42posFZnznqfesd9vkMVLz7xtm4h+8p5XUhJfz\nmCtiW13Z2rJzpvErpvGXtaqXuzFio4DpPnbXplBV/yJz6XF1prouoKomLVjfjgUv\nQnEvthVOaEdstQdwkCZ19uU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcloudstorage@carecam-593ba.iam.gserviceaccount.com",
+  "client_id": "107019589368499247867",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcloudstorage%40carecam-593ba.iam.gserviceaccount.com"
+}
