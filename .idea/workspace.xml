@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1485fcb4-b5ce-4816-99e9-12d7883b1924" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CareCamAudio1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CareCamRecorderAppMobile/CareCamRecorderApp/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/CareCamAudio1-old1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/CareCamAudio1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/CareCamAudio2-old1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/CareCamAudio2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/CareCamAudio3-old1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/CareCamAudio3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/twinkle.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Emotion Video Sensing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Emotion Video Sensing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/cloudAudio.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/whiteNoise.wav" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/video/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/video/image.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

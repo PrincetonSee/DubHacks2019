@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "398151824582",
+    "firebase_url": "https://carecam-593ba.firebaseio.com",
+    "project_id": "carecam-593ba",
+    "storage_bucket": "carecam-593ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398151824582:android:8d4a075dcf1e990d1193c7",
+        "android_client_info": {
+          "package_name": "com.example.carecamrecorderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398151824582-3qn5lngmjrigr2nsqbeus5t8naiqcv2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmfbjvs9PEn1GCZCHFF3Utprr7RYfGPzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398151824582-3qn5lngmjrigr2nsqbeus5t8naiqcv2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
