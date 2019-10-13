@@ -16,12 +16,7 @@ from firebase_admin import storage
 def retrieve_audio_file():
     cred = credentials.Certificate('keys/carecam-593ba-firebase-adminsdk-gr35d-a83ad42f4e.json')
     firebase_admin.initialize_app(cred)
-    # storage_client = storage.Client()
-    # bucket_name = 'CareCamAudioFiles'
-    # bucket = storage_client.get_bucket(bucket_name)
-    # blob = bucket.blob('whiteNoise.wav')
     filename = 'audio/testAudio2.mp3'
-    # blob.download_to_filename('audio/whitNoise2.wav')
     bucket = storage.bucket('carecam-593ba.appspot.com')
     blob = bucket.blob('testAudio.mp3')
 
@@ -63,9 +58,7 @@ def detect_faces(path):
                     for vertex in face.bounding_poly.vertices])
 
         print('face bounds: {}'.format(','.join(vertices)))
-        if face.joy_likelihood == 4 or face.joy_likelihood == 5:
-            print(face.joy_likelihood)
-            print("You're Surprised!")
+        if face.surprise_likelihood == 4 or face.surprise_likelihood == 5:
             playsound(retrieve_audio_file())
 
 

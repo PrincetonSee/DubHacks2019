@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<title>Color Example</title>
+<style>
+    div {
+        padding: 20px;
+        margin: 20px;
+    }
+    .textColor {
+        color: Aqua;
+        background-color: white;
+    }
+    .borderColor {
+        border-width: 3px;
+        border-style: solid;
+        border-color: Aqua;
+    }
+    .backgroundColor {
+        background-color: Aqua;
+        color: white;
+    }
+    .backgroundGradient {
+        background: linear-gradient(to bottom, white, Aqua);
+        color: white;
+    }
+
+</style>
+<div class="textColor borderColor">
+    <h1>Testing Text in Aqua</h1>
+    <p>This text has been styled with a color of Aqua.</p>
+    <p>The border is also uses Aqua.</p>
+    <p>Try changing the values to see how it affects the output.</p>
+    <p>And see this color applied to the <a href="/html/codes/color/color-tester.cfm?colorName=Aqua">Color Tester</a>.</p>
+</div>
+<div class="backgroundColor">
+    <h1>Testing a background color of Aqua.</h1>
+    <p>This has a background color of Aqua.</p>
+    <p>Try changing the values to see how it affects the output.</p>
+</div>
+<div class="backgroundGradient">
+    <h1>Testing a background gradient.</h1>
+    <p>This has a background gradient going between white and Aqua.</p>
+    <p>Try changing the values to see how it affects the output.</p>
