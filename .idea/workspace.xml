@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1485fcb4-b5ce-4816-99e9-12d7883b1924" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CareCamAudio1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CareCamAudio2.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CareCamAudio1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CareCamAudio2.wav" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Emotion Video Sensing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Emotion Video Sensing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/video/image.jpg" afterDir="false" />
     </list>
@@ -58,6 +59,9 @@
       <module name="DubHacks2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\princ\OneDrive\Desktop\DubHacks2019\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -137,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570993067381</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Emotion recognition and audio download success">
+      <created>1570993331893</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570993331893</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

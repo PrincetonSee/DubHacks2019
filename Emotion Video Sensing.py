@@ -13,8 +13,8 @@ from firebase_admin import credentials
 from firebase_admin import storage
 
 
-def retrieve_audio_file(num):
-    filename = 'CareCamAudio' + str(num) + '.wav'
+def retrieve_audio_file(n):
+    filename = 'CareCamAudio' + str(n) + '.wav'
     bucket = storage.bucket('carecam-593ba.appspot.com')
     blob = bucket.blob(filename)
 
@@ -56,17 +56,15 @@ def detect_faces(path, num):
                     for vertex in face.bounding_poly.vertices])
 
         print('face bounds: {}'.format(','.join(vertices)))
-        if face.surprise_likelihood == 4 or face.surprise_likelihood == 5:
+        if face.joy_likelihood == 4 or face.joy_likelihood == 5:
             filename = retrieve_audio_file(num)
             playsound(filename)
-            return True
 
 
 def web_cam_feed():
     cv2.namedWindow("preview")
     vc = cv2.VideoCapture(1)
     filename = 'video/image.jpg'
-    num = 1;
 
     if vc.isOpened():  # try to get the first frame
         rval, frame = vc.read()
@@ -76,10 +74,7 @@ def web_cam_feed():
     while rval:
         cv2.imshow("preview", frame)
         cv2.imwrite(filename, frame)
-        if detect_faces(filename, num):
-            num += 1
-        else:
-            num = 1
+        detect_faces(filename)
         os.remove(filename)
         rval, frame = vc.read()
         key = cv2.waitKey(20)
@@ -89,6 +84,6 @@ def web_cam_feed():
 
 
 if __name__ == '__main__':
-    cred = credentials.Certificate('keys/carecam-593ba-firebase-adminsdk-gr35d-a83ad42f4e.json')
+    cred = credentials.Certificate('Desktop/keys/carecam-593ba-firebase-adminsdk-gr35d-a83ad42f4e.json')
     firebase_admin.initialize_app(cred)
     web_cam_feed()
