@@ -92,7 +92,4 @@ def web_cam_feed():
 
 
 if __name__ == '__main__':
-    # upload_audio()
-    # db = init_credentials()
-    # retrieve_audio_file()
     web_cam_feed()
