@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1485fcb4-b5ce-4816-99e9-12d7883b1924" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CareCamAudio1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CareCamAudio2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Emotion Video Sensing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Emotion Video Sensing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/video/image.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="1485fcb4-b5ce-4816-99e9-12d7883b1924" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570993331893</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Emotion recognition and audio download success">
+      <created>1571000614968</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571000614968</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
